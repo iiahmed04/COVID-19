@@ -1,0 +1,890 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.card1{
+    background-color: rgb(247,249,254);
+    background-image: url(./images/Header.png);
+    background-size: cover;
+}
+/* nav bar */
+.card1 .container{
+    width: 70%;
+    margin: auto;
+
+}
+.card1 header nav .container .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    align-items: center;
+    
+}
+.card1 header nav .container .row .nav-text{
+    width: 75%;
+}
+.card1 header nav .container .row .logo{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.card1 header nav .container .row .nav-text ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card1 header nav .container .row .nav-text ul li a{
+    font-family: sans-serif;
+    color: rgb(80,101,142);
+    font-weight: 700;
+    font-size: 15px;
+}
+.card1 header nav .container .row .menu{
+    display: none;
+}
+.card1 header nav .container .row .nav-text ul li button{
+    padding: 15px 20px;
+    background-color: rgb(0,123,255);
+    border-radius: 100px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(1, 86, 178);
+    }
+}
+/* card 1 */
+.card1 .container .hero{
+    display: flex;
+}
+.card1 .container .hero .hero-text 
+,.card1 .container .hero .hero-img{
+    width: 100%;
+} 
+.card1 .container .hero .hero-img img{
+    width: 100%;
+}
+.card1 .container .hero .hero-text .ahmed1{
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(80,101,142);
+    margin-bottom: 30px ;
+}
+.card1 .container .hero .hero-text .ahmed1 .a1 h2{
+    font-size: 85px;
+}
+.card1 .container .hero .hero-text .ahmed1 .a2{
+    padding-top: 20px;
+}
+.card1 .container .hero .hero-text .ahmed1 .a2 h4{
+    font-size: 30px;
+    color: red;
+}
+.card1 .container .hero .hero-text .ahmed1 .a2 h3{
+    font-size: 43px;
+}
+.card1 .container .hero .hero-text .ahmed2{
+    margin: 0px 0px 45px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 17px;
+}
+.card1 .container .hero .hero-text .ahmed3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+.card1 .container .hero .hero-text .ahmed3 .but1 button{
+    background-color: rgb(0,123,255);
+    color: white;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 100px;
+    font-size: 19px;
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(1, 86, 178);
+    }
+}
+.card1 .container .hero .hero-text .ahmed3 .but2 a{
+    font-size: 19px;
+    padding: 10px 15px;
+    color: rgb(61, 61, 255);
+    &:hover{
+        text-decoration:underline;
+        color:  rgb(1, 86, 178);
+    }
+}
+.card1 .container .hero .hero-text .ahmed4{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 35px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card1 .container .hero .hero-text .ahmed4 .num1 h6
+,.card1 .container .hero .hero-text .ahmed4 .num2 h6
+,.card1 .container .hero .hero-text .ahmed4 .num3 h6{
+    font-size: 16px;
+    color: rgb(125,146,187);
+    font-weight: 300;
+    margin-bottom: 10px
+}
+.card1 .container .hero .hero-text .ahmed4 .num1 h4
+,.card1 .container .hero .hero-text .ahmed4 .num2 h4
+,.card1 .container .hero .hero-text .ahmed4 .num3 h4{
+    
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(80,101,142);
+}
+.card1 .container .hero .hero-text .ahmed5 h6{
+    font-size: 13px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(80,101,142);
+    margin-bottom: 40px;
+}
+.container .card2{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 30px auto;
+    padding: 30px;
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .card2 .card2-text{
+    width: 60%;
+}
+.container .card2 .card2-text h3{
+    color: rgb(63,111,253);
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.container .card2 .card2-text h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.container .card2 .card2-text .special{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.container .card2 .card2-text p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.container .card2 .card2-table{
+    width: 35%;
+    text-align: center;
+}
+.container .card2 .card2-table ul{
+    text-align: left;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.container .card2 .card2-table ul>li{
+    font-size: 21px;
+    font-weight: bold;
+    border: 1px solid rgba(77, 77, 77, 0.2);
+    padding: 20px 18px;
+}
+.container .card2 .card2-table ul a li{
+    border: 1px solid rgba(77, 77, 77, 0.2);
+    padding: 20px 25px;
+    color: rgb(107, 107, 255);
+    &:hover{
+        text-decoration: underline;
+        color: rgb(26, 26, 168);
+    }
+}
+.container .card2 .card2-table ul a li i{
+    float: right;
+}
+.card3{
+    background-color: rgb(247,249,254);
+}
+.card3 .container .card3-content{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card3 .container .card3-content .card3-head{
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.card3 .container .card3-content .card3-head h5{
+    color: rgb(0,123,255);
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+}
+.card3 .container .card3-content .card3-head h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.card3 .container .card3-content .card3-img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card3 .container .card3-content .card3-img .img1
+,.card3 .container .card3-content .card3-img .img2
+,.card3 .container .card3-content .card3-img .img3{
+    width: 30%;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgba(31, 31, 31, 0.2);
+}
+.card3 .container .card3-content .card3-img .img1 img
+,.card3 .container .card3-content .card3-img .img2 img
+,.card3 .container .card3-content .card3-img .img3 img{
+    width: 100%;
+    background-color: rgb(247,249,254);
+    border-bottom: 5px solid rgb(110,159,255);
+}
+.card3 .container .card3-content .card3-img .img1 .card1-text
+,.card3 .container .card3-content .card3-img .img2 .card2-text
+,.card3 .container .card3-content .card3-img .img3 .card3-text{
+    padding: 15px;
+}
+.card3 .container .card3-content .card3-img .img1 .card1-text h5
+,.card3 .container .card3-content .card3-img .img2 .card2-text h5
+,.card3 .container .card3-content .card3-img .img3 .card3-text h5{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.card3 .container .card3-content .card3-butt{
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.card3 .container .card3-content .card3-butt button{
+    background-color: rgb(0,123,255);
+    color: white;
+    padding: 20px 15px;
+    border: 0;
+    border-radius: 100px;
+    font-size: 19px;
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(26, 26, 168);
+    }
+}
+.card3 .container .card3-content .card3-butt button i{
+    margin-right: 30px;
+}
+.container .card4{
+    width: 75%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .card4 .card4-head{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+.container .card4 .card4-head h5{
+    color: rgb(118,145,249);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.container .card4 .card4-head h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.container .card4 .card4-head p{
+    margin-bottom: 20px;
+}
+.container .card4 .card4-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.container .card4 .card4-img .img1
+,.container .card4 .card4-img .img2
+,.container .card4 .card4-img .img3{
+    width: 33%;
+    padding: 50px;
+    box-shadow: 0px 1px 2px rgba(20, 20, 20, 0.2);
+}
+.container .card4 .card4-img .img1 .pic1
+,.container .card4 .card4-img .img2 .pic2
+,.container .card4 .card4-img .img3 .pic3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: 10px;    
+}
+.container .card4 .card4-img .img1 .pic1 img
+,.container .card4 .card4-img .img2 .pic2 img
+,.container .card4 .card4-img .img3 .pic3 img{
+    width: 90px;
+    height: 90px;
+    float: right;
+    border-radius: 50%;
+}
+.container .card4 .card4-img .img1 .card1-text h5
+,.container .card4 .card4-img .img2 .card2-text h5
+,.container .card4 .card4-img .img3 .card3-text h5{
+    width: 100%;
+    color: #7691f9;
+    font-size: 20px;
+    font-weight: bold; 
+    margin-bottom: 10px; 
+}
+.container .card4 .card4-butt{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .card4 .card4-butt .left{
+    display: flex;
+    margin: 0px 5px;
+    width: 50%;
+    line-height: 1.3;
+}
+.container .card4 .card4-butt .left i{
+    font-size: 80px;
+    margin-right: 10px;
+}
+.container .card4 .card4-butt .right{
+    padding: 15px;
+}
+.container .card4 .card4-butt .right button{
+    background-color: rgb(0,123,255);
+    color: white;
+    padding: 20px 15px;
+    border: 0;
+    border-radius: 100px;
+    font-size: 19px;
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(26, 26, 168);
+    }
+}
+.container .card4 .card4-butt .right button i{
+    margin-right: 30px;
+}
+.card5{
+    background-color: rgb(247,249,254);
+}
+.card5 .container{
+    width: 70%;
+    margin: auto;
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+.card5 .container .card5-cont{
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card5 .container .card5-cont .card5-head h5{
+    color: rgb(118,145,249);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.card5 .container .card5-cont .card5-head h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.card5 .container .card5-cont .card5-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.card5 .container .card5-cont .card5-img .img1
+,.card5 .container .card5-cont .card5-img .img2
+,.card5 .container .card5-cont .card5-img .img3
+,.card5 .container .card5-cont .card5-img .img4{
+    width: calc(90%/4);
+}
+.card5 .container .card5-cont .card5-img .img1 img
+,.card5 .container .card5-cont .card5-img .img2 img
+,.card5 .container .card5-cont .card5-img .img3 img
+,.card5 .container .card5-cont .card5-img .img4 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.card5 .container .card5-cont .card5-img .text h5
+,.card5 .container .card5-cont .card5-img .text h5
+,.card5 .container .card5-cont .card5-img .text h5
+,.card5 .container .card5-cont .card5-img .text h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+}
+.card5 .container .card5-cont .card5-butt{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.card5 .container .card5-cont .card5-butt button{
+    margin: auto;
+    background-color: rgb(0,123,255);
+    color: white;
+    padding: 20px 15px;
+    border: 0;
+    border-radius: 100px;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card5 .container .card5-cont .card5-butt button i{
+    margin-left: 30px;
+}
+.card5 .container .card5-cont .card5-butt a{
+    width: 100%;
+    text-decoration: none;
+    color: rgb(0,123,255);
+    font-weight: bold;
+}
+.card5 .container .card5-cont .card5-butt a i{
+    margin-left: 30px;
+}
+.card6{
+    background-color: rgb(247,249,254);
+    
+}
+.card6 .container{
+    width: 70%;
+    margin: auto;
+    padding: 30px 0px;
+}
+.card6 .container .card6-cont{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 20%);
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card6 .container .card6-cont .card6-text{
+    width: 60%;
+    line-height: 1.6;
+}
+.card6 .container .card6-cont .card6-text h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.card6 .container .card6-cont .card6-text ul li{
+    margin: 10px;
+}
+.card6 .container .card6-cont .card6-text ul li i{
+    color: rgb(82,201,139);
+}
+.card6 .container .card6-cont .card6-text ul li a{
+    color: rgb(0,123,255);
+    text-decoration: underline;
+    &:hover{
+        cursor: pointer;
+        color: rgb(2, 86, 175);
+    }
+}
+.card6 .container .card6-cont .card6-img{
+    width: 35%;
+}
+.card6 .container .card6-cont .card6-img img{
+    width: 100%;
+}
+.card7{
+    background-color: rgb(247,249,254);
+}
+.card7 .container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0px 100px 0px;
+}
+.card7 .container .card7-cont{
+    width: 100%;
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.card7 .container .card7-cont .card7-text h2{
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+.card7 .container .card7-cont .card7-text a{
+    color: rgb(0,123,255);
+    font-weight: bold;
+}
+.card7 .container .card7-cont .card7-img{
+    display: flex;
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card7 .container .card7-cont .card7-img .pic{
+    width: calc(90%/6);
+    margin: auto;
+}
+.card7 .container .card7-cont .card7-img .pic img{
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.card7 .container .card7-cont .card7-img .pic h6{
+    font-weight: bold;
+    font-size: 16px;
+}
+.card8{
+    width: 100%;
+    background-image: url(./images/Header.png);
+    background-size: cover;
+    background-color: rgb(39,102,187);
+    padding: 85px 0px;
+}
+.card8 .container{
+    width: 90%;
+    margin: auto;
+    
+}    
+.card8 .container .card8-cont{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.card8 .container .card8-cont .left{
+    width: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card8 .container .card8-cont .left h5{
+    color: rgb(115,227,255);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px
+}
+.card8 .container .card8-cont .left h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.card8 .container .card8-cont .left p{
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.card8 .container .card8-cont .right{
+    width: 35%;
+    background-color: rgb(27,71,161);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    color: white;
+    padding: 40px;
+    line-height: 1.5
+}
+.card8 .container .card8-cont .right h6
+,.card8 .container .card8-cont .right p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.card8 .container .card8-cont .right ul{
+    margin-bottom: 10px;
+}
+.card8 .container .card8-cont .right ul li i{
+    margin-right: 10px;
+}
+.card9{
+    width: 100%;
+    background-color: rgb(247,249,254);
+}
+.card9 .container{
+    width: 70%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card9 .container .card9-cont .card9-bottom{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.card9 .container .card9-cont .card9-bottom .left
+,.card9 .container .card9-cont .card9-bottom .right{
+    width: 25%;
+}
+.card9 .container .card9-cont .card9-bottom .left .wrong{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.card9 .container .card9-cont .card9-bottom .left .wrong img{
+    border: 2px solid blue;
+    border-radius: 50%;
+    width: 35%;
+}
+.card9 .container .card9-cont .card9-bottom .left .wrong p{
+    width: 70%;
+    padding: 25px 0px 0px 10px;
+    color: rgb(42,129,234);
+    font-size: 14px;
+    font-weight: bold;
+}
+.card9 .container .card9-cont .card9-bottom .left .wrong i{
+    color: red;
+}
+.card9 .container .card9-cont .card9-bottom .right .true{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.card9 .container .card9-cont .card9-bottom .right .true img{
+    border: 2px solid blue;
+    border-radius: 50%;
+    width: 35%;
+}
+.card9 .container .card9-cont .card9-bottom .right .true p{
+    width: 70%;
+    padding: 25px 0px 0px 10px;
+    color: rgb(42,129,234);
+    font-size: 14px;
+    font-weight: bold;
+}
+.card9 .container .card9-cont .card9-bottom .right .true i{
+    color: green;
+}
+.card9 .container .card9-cont .card9-bottom .bottom{
+    width: 50%;
+}
+.card9 .container .card9-cont .card9-bottom .bottom img{
+    width: 100%;
+}
+.card9 .container .card9-cont .card9-top{
+    padding-top: 100px;
+    text-align: center;
+    color: #50658e;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.card9 .container .card9-cont .card9-top h6{
+    font-size: 19px;
+    color: rgb(42,129,234);
+    margin-bottom: 10px;
+}
+.card9 .container .card9-cont .card9-top h2{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+.card9 .container .card9-cont .card9-top p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.container .card10{
+    width: 60%;
+    margin: auto;
+    color: #50658e;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+}
+.container .card10 .top{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container .card10 .top h5{
+    color: rgb(0,123,255);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.container .card10 .top h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+.container .card10 .bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 100px;
+}
+.container .card10 .bottom .left{
+    width: 30%;
+}
+.container .card10 .bottom .left ul a li{
+    padding: 20px 10px;
+    border: 2px solid rgb(231,232,255);
+    border-radius: 8px;
+    margin: 10px 0px;
+    transition: all 0.5s;
+    &:hover{
+        color: rgb(32, 32, 255);
+    }
+}
+.container .card10 .bottom .left ul a li i{
+    float: right;
+}
+.container .card10 .bottom .right{
+    width: 68%;
+    border: 2px solid rgb(231,232,255);
+    border-radius: 8px;
+}
+.container .card10 .bottom .right ul{
+    background-color: rgb(247, 250, 254);
+}
+.container .card10 .bottom .right ul a li{
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(231,232,255);
+}
+.container .card10 .bottom .right ul a li h6{
+    padding: 20px;
+    font-size: 17px;
+    transition: all 0.6s;
+    &:hover{
+        color: rgb(40, 40, 251);
+    }
+}
+.container .card10 .bottom .right ul a li h6 i{
+    float: right;
+}
+.card11{
+    width: 100%;
+    background-color: rgb(247,249,254);
+}
+.card11 .container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0px;
+    color: #50658e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card11 .container .top h5{
+    font-size: 20px;
+    color: rgb(0,123,255);
+    margin-bottom: 15px;
+}
+.card11 .container .top h3{
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+}
+.card11 .container .bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card11 .container .bottom .card{
+    width: calc(90%/3);
+    background-color: white;
+    padding: 20px 5px;
+}
+.card11 .container .bottom .card img{
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.card11 .container .bottom .card h5{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.card11 .container .bottom .card p{
+    color: rgb(61,75,105);
+    line-height: 1.5;
+}
+footer{
+    width: 100%;
+    background-image: url(./images/Header.png);
+    background-size: cover;
+    background-color: rgb(21,28,46);
+    padding: 80px 0px;
+}
+footer .container{
+    width: 70%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(178,191,224);
+}
+footer .container .top{
+    display: flex;
+}
+footer .container .top .text1{
+    width: 35%;
+}
+footer .container .top .text1 h2{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+}
+footer .container .top .text1 p{
+    line-height: 1.2;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+footer .container .top .text1 a{
+    color: rgb(178,191,224);
+    font-size: 30px;
+    margin-right: 10px;
+}
+footer .container .top .text1 a i{
+    transition: all 0.6s;
+    &:hover{
+        color: #7691f9;
+    }
+}
+footer .container .top .text{
+    width: calc(65%/3);
+    margin-top: 25px;
+    padding: 0px 15px;
+}
+footer .container .top .text h6{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+footer .container .top .text a{
+    text-decoration: none;
+    color: rgb(178,191,224);
+    font-size: 13px;
+    line-height: 34px;
+}
+footer .container hr{
+    color: rgb(107, 115, 136);
+    border: 1px solid rgb(107, 115, 136);
+    width: 100%;
+    height: 0;
+    margin: 50px 0px;
+}
+footer .container .bottom p{
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-size: 13px;
+}
+

@@ -1,0 +1,287 @@
+@media(max-width:1245px){
+    .card1 header nav .container {
+        width: 90%;
+    }
+    .card1 .container{
+        width: 90%;
+    }
+    .container .card2{
+        width: 90%;
+    }
+    .container .card4{
+        width: 90%;
+    }
+    .card5 .container{
+        width: 90%;
+    }
+    .card6 .container{
+        width: 90%;
+    }
+    .card8 .container{
+        width: 95%;
+    }
+    .card8 .container .card8-cont .right{
+        width: 40%;
+    }
+    .card9 .container{
+        width: 90%;
+    }
+    .container .card10{
+        width: 95%;
+    }
+    .card11 .container{
+        width: 90%;
+    }
+    footer .container{
+        width: 90%;
+    }
+} 
+@media(max-width:960px){
+    .card1 header nav .container .row .nav-text{
+        display: none;
+    }
+    .card1 header nav .container .row .menu{
+        display: block;
+        font-size: 25px;
+    }
+    .card1 .container .hero{
+        flex-wrap: wrap;
+    }
+    .container .card2{
+        flex-wrap: wrap;
+    }
+    .container .card2 .card2-text{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .container .card2 .card2-table{
+        width: 70%;
+        margin: auto;
+    }
+    .card3 .container .card3-content .card3-img{
+        flex-wrap: wrap;
+    }
+    .card3 .container .card3-content .card3-img .img1
+    ,.card3 .container .card3-content .card3-img .img2
+    ,.card3 .container .card3-content .card3-img .img3{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .container .card4 .card4-img{
+        flex-wrap: wrap;
+    }
+    .container .card4 .card4-img .img1
+    ,.container .card4 .card4-img .img2
+    ,.container .card4 .card4-img .img3{
+        width: 100%;
+    }
+    .container .card4 .card4-butt{
+        justify-content: center;
+    }
+    .container .card4 .card4-butt .left{
+        width: 100%;
+    }
+    .card5 .container .card5-cont .card5-img{
+        flex-wrap: wrap;
+    }
+    .card5 .container .card5-cont .card5-head{
+        width: 100%;
+    }
+    .card5 .container .card5-cont .card5-img .img1
+    ,.card5 .container .card5-cont .card5-img .img2
+    ,.card5 .container .card5-cont .card5-img .img3
+    ,.card5 .container .card5-cont .card5-img .img4{
+        width: 100%;
+    }
+    .card6 .container{
+        width: 100%;
+    }
+    .card6 .container .card6-cont{
+        flex-wrap: wrap;
+    }
+    .card6 .container .card6-cont .card6-text{
+        width: 100%;
+    }
+    .card6 .container .card6-cont .card6-img{
+        width: 70%;
+        margin: auto;
+    }
+    .card6 .container .card6-cont .card6-img img{
+        width: 100%;
+    }
+    .card7 .container .card7-cont .card7-img{
+        flex-direction: column;
+    }
+    .card7 .container .card7-cont .card7-img .pic{
+        width: 100%;
+    }
+    .card7 .container .card7-cont .card7-img .pic img{
+        width: 40%;
+    }
+    .card8 .container .card8-cont{
+        flex-wrap: wrap;
+    }
+    .card8 .container .card8-cont .left{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .card8 .container .card8-cont .right{
+        width: 90%;
+        margin: auto;
+    }
+    .card9 .container{
+        width: 95%;
+    }
+    .card9 .container .card9-cont .card9-bottom{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .card9 .container .card9-cont .card9-bottom .right
+    ,.card9 .container .card9-cont .card9-bottom .left {
+        width: 50%;
+    }
+    .card9 .container .card9-cont .card9-bottom .left .wrong{
+        flex-direction: row-reverse;
+    }
+    .card9 .container .card9-cont .card9-bottom .bottom{
+        width: 90%;
+    }
+    .container .card10 .bottom{
+        flex-wrap: wrap;
+    }
+    .container .card10 .bottom .left{
+        width: 70%;
+        margin: auto;
+    }
+    .container .card10 .bottom .right{
+        width: 80%;
+        height: 400px;
+        margin: auto;
+    }
+    .card11 .container .bottom{
+        flex-wrap: wrap;
+    }
+    .card11 .container .bottom .card{
+        width: 90%;
+    }
+    footer .container .top{
+        flex-wrap: wrap;
+    }
+    footer .container .top .text1
+    ,footer .container .top .text{
+        width: 50%;
+    }
+}
+@media(max-width:600px){
+    .container .card2{
+        width: 100%;
+    }
+    .container .card2 .card2-text{
+        text-align: center;
+        width: 100%;
+    }
+    .container .card2 .card2-table{
+        width: 100%;
+    }
+    .card3 .container .card3-content {
+        width: 80%;
+    }
+    .container .card4{
+        width: 100%;
+    }
+    .container .card10 .bottom .left{
+        width: 90%;
+        margin: auto;
+    }
+    .container .card10 .bottom .right{
+        width: 95%;
+        height: 400px;
+        margin: auto;
+    }
+}
+@media(max-width:452px){
+    .card1 .container .hero .hero-text .ahmed1 .a1 h2{
+        font-size: 70px;
+    }
+    .card1 .container .hero .hero-text .ahmed1 .a2 h4{
+        font-size: 20px;
+    }
+    .card1 .container .hero .hero-text .ahmed1 .a2 h3{
+        font-size: 33px;
+    }   
+    .card1 .container .hero .hero-text .ahmed3{
+        flex-wrap: wrap;
+    }
+    .card1 .container .hero .hero-text .ahmed3 .but1
+    ,.card1 .container .hero .hero-text .ahmed3 .but2{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .card1 .container .hero .hero-text .ahmed4{
+        flex-direction: column;
+    }
+    .card3 .container .card3-content {
+        width: 90%;
+    }
+    .card5 .container .card5-cont .card5-butt button{
+        font-size: 11px;
+    }
+    .card5 .container .card5-cont .card5-butt button i{
+        margin-left: 5px;
+    }
+    .card5 .container .card5-cont .card5-butt a{
+        font-size: 13px;
+    }
+    .card5 .container .card5-cont .card5-butt a i{
+        margin-left: 15px;
+    }
+    .card8 .container .card8-cont .left h2{
+        font-size: 25px;
+    }
+    .card9 .container .card9-cont .card9-bottom .right
+    ,.card9 .container .card9-cont .card9-bottom .left {
+        width: 68%;
+    }
+    .container .card10 .bottom .right ul a li h6{
+        font-size: 12px;
+    }
+    .card11 .container{
+        width: 95%;
+        margin: auto;
+    }
+    .card11 .container .bottom .card{
+        width: 100%;
+    }
+    footer .container .top{
+        display: flex;
+    }
+    footer .container .top .text1
+    ,footer .container .top .text{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media(max-width:342px){
+    .card1 .container .hero .hero-text .ahmed1 .a1 h2{
+        font-size:60px;
+    }
+    .card1 .container .hero .hero-text .ahmed1 .a2 h4{
+        font-size: 15px;
+    }
+    .card1 .container .hero .hero-text .ahmed1 .a2 h3{
+        font-size: 25px;
+    } 
+    .container .card4 .card4-butt{
+        font-size: 15px;
+    }
+    .container .card4 .card4-butt .right button{
+        font-size: 15px;
+    }
+}
+@media(max-width:300px){
+    *{
+        display: none;
+    }
+}
